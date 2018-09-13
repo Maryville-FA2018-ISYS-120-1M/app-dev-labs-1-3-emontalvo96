@@ -1,8 +1,4 @@
-/*:
- ## Exercise - Basic Arithmetic
- 
- You decide to build a shed and want to know beforehand the area of your yard that it will take up. Create two constants, `width` and `height`, with values of 10 and 20, respectively. Create an `area` constant that is the result of multiplying the two previous constants together, and print out the result.
- */
+// SU edits
 let width = 10
 let height = 20
 let area = width * height
@@ -15,7 +11,7 @@ print(roomArea)
 /*:
  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
  */
-let perimeter = (width*2) + (height*2)
+let perimeter = (width*2) + (height*2) //very good - SU
 print(perimeter)
 /*:
  Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, `integerDivisionResult` that is the result of 10 divided by 3, and print the value.
@@ -43,7 +39,7 @@ let pi = 3.1415927
 //change//
 let radius = 5.0
 var diameter = 2 * radius
-var circumference = diameter * pi
+var circumference = diameter * pi // let circumference = 2 * pi * radius - SU
 print(diameter)
 print(circumference)
 // change is done//
